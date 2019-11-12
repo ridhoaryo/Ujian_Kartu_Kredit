@@ -5,9 +5,6 @@ print(type(output))
 
 valid = []
 invalid = []
-
-valid = []
-invalid = []
 for data in output:
     nama, cc = data.items()
     n_cc = cc[1]
